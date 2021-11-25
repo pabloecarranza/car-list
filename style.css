@@ -1,0 +1,92 @@
+body {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 70vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(24, 29, 112, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hijo {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+.name{
+  width: 65%;
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.CarList{
+    display: flex;
+    align-items: center;
+    height: 70%;
+}
+
+
+.button-70 {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.car{
+    border-right: 1px solid rgb(211, 211, 211);
+    margin-top: 16px;
+   
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.car ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.car ul li{
+    margin: 0 12px;
+}
+
+.addCar{
+    display: flex;
+    flex-direction: column;
+padding-left: 20px;
+margin-top: 16px;
+height: 100%;
+width: 29%;
+
+}
